@@ -6,7 +6,7 @@ Fresh Pokémon X/Y shiny-hunting automation for a CFW Nintendo 3DS using the exi
 
 Pokémon **Y** is the first validation target. The first production milestone is a fully state-driven **Froakie starter hunt** from the canonical Aquacorde save point.
 
-Current phase: **design and implementation planning**.
+Current phase: **implementation plans complete; code execution not started**.
 
 ## Core rules
 
@@ -31,9 +31,11 @@ See:
 
 - `docs/superpowers/specs/2026-10-06-pokemon-y-starter-bot-design.md`
 
-Implementation plans will live under:
+Implementation plans:
 
-- `docs/superpowers/plans/`
+- `docs/superpowers/plans/2026-10-06-y-foundation-reference-probe.md`
+- `docs/superpowers/plans/2026-10-06-y-state-atlas-froakie-selector.md`
+- `docs/superpowers/plans/2026-10-06-y-froakie-production-engine.md`
 
 ## License / disclaimer
 
