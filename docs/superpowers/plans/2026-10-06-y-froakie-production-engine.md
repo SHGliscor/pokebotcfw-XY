@@ -22,6 +22,7 @@
 - No Qt/UI work.
 - No automatic continuous mode before 5-, 20-, then 100-cycle reliability gates.
 - Raw RAM/support/PK6 artifacts remain ignored by Git; only sanitized summaries/derived metrics are committed.
+- Every Probe 07–12 run must use Plan 1's `SupportBundleWriter` and emit a timestamped diagnostic bundle even on failure or HOLD.
 
 ## Review Focus
 
