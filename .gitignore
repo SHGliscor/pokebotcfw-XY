@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Local config / secrets
+.env
+.env.*
+*.local.json
+
+# Logs / runtime output
+*.log
+logs/
+support/
+support_*/
+artifacts/
+output/
+
+# Raw memory / save / Pokémon data
+*.bin
+*.dmp
+*.dump
+*.ram
+*.sav
+*.dat
+*.pk6
+*.pk7
+
+# Nintendo / game / firmware binaries
+*.3ds
+*.cia
+*.cxi
+*.cci
+*.nds
+*.gba
+*.rom
+*.ips
+*.firm
+boot.firm
+code.ips
+
+# Archives / extracted copyrighted data
+*.zip
+*.7z
+*.rar
+data/extracted/
+game_data/raw/
+romfs/
+exefs/
+
+# Framebuffer captures from hardware probes
+framebuffer/
+screenshots/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
