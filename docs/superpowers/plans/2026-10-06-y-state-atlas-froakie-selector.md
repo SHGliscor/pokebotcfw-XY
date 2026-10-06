@@ -22,6 +22,8 @@
 - Unknown state, unexpected game identity, uncertain selection, or controller-release failure means SAFETY_HOLD/stop.
 - Historical `DllPoke3Select`, triple-touch, selector coordinates, and old timing data are hypotheses only until freshly re-proven.
 - Raw game archives, extracted copyrighted data, framebuffer captures, RAM dumps, and support ZIPs remain outside Git.
+- Every Probe 03–06 run must use Plan 1's `SupportBundleWriter` and emit a timestamped diagnostic bundle even on failure.
+- English script/message correlation must match the observed starter-event flow before any dialogue transition is promoted for production automation.
 - Any generated metadata committed to Git must be derived/sanitized and reproducible from user-owned archives.
 
 ## Review Focus
