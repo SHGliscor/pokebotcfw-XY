@@ -1,0 +1,58 @@
+{
+  "game": "Pokemon Y",
+  "title_id": "0004000000055E00",
+  "process_name": "kujira-2",
+  "language": "en",
+  "party_stride": 484,
+  "stored_pk6_size": 232,
+  "addresses": {
+    "tid_sid": {
+      "address": "0x08C79C3C",
+      "status": "hardware_verified",
+      "sources": [
+        "PokeReader",
+        "fresh Pokemon Y Probe01/Probe02 hardware proof",
+        "matching TID/SID embedded in checksum-valid manually received Froakie"
+      ]
+    },
+    "party_base": {
+      "address": "0x08CE1CF8",
+      "status": "hardware_verified",
+      "sources": [
+        "PokeReader",
+        "fresh Pokemon Y Probe02 hardware proof",
+        "checksum-valid species 656 Froakie at Party Slot 1"
+      ]
+    },
+    "wild_base": {
+      "address": "0x081FF744",
+      "status": "candidate",
+      "sources": ["PokeReader"]
+    },
+    "radar_chain": {
+      "address": "0x08D1B2B8",
+      "status": "candidate",
+      "sources": ["PokeReader"]
+    },
+    "initial_seed": {
+      "address": "0x08C52844",
+      "status": "candidate",
+      "sources": ["PokeReader"]
+    },
+    "mt_index": {
+      "address": "0x08C52848",
+      "status": "candidate",
+      "sources": ["PokeReader"]
+    },
+    "mt_start": {
+      "address": "0x08C5284C",
+      "status": "candidate",
+      "sources": ["PokeReader"]
+    },
+    "tinymt_state": {
+      "address": "0x08C52808",
+      "status": "candidate",
+      "sources": ["PokeReader"]
+    }
+  }
+}
