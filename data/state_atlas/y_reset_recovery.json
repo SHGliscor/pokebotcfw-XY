@@ -1,0 +1,50 @@
+{
+  "game": "Pokemon Y",
+  "captured": "2026-10-07",
+  "source": "PokemonY_Probe04_20261007_030152_899176",
+  "pid": 47,
+  "transitions": [
+    {
+      "from": 0,
+      "state": "TITLE_READY",
+      "manual_action": "A",
+      "to": 1
+    },
+    {
+      "from": 1,
+      "state": "CONTINUE",
+      "manual_action": "A",
+      "to": 2
+    },
+    {
+      "from": 2,
+      "state": "SAVE_LOADED_AT_STARTER_POSITION",
+      "manual_action": "LEFT",
+      "to": 3
+    }
+  ],
+  "states": {
+    "0": {
+      "label": "TITLE_READY",
+      "top_sha256": "ba90c6033a87bea63d449c4a979b2ca3c0ef6bc03b02304126b7b058d1f1dcc0",
+      "bottom_sha256": "7ce6d8fbfdf5047af066df56bfe48ad452fc315ab880f814a6421f24d30d1322"
+    },
+    "1": {
+      "label": "CONTINUE",
+      "top_sha256": "e08242210c27e7ea4831dc2e74ad62a051f82f762aca94353ed9613af9dd6e9a",
+      "bottom_sha256": "f8c58d631a894dc92cfc1dc75aaf6f48f0998e3011074c45aea06f05d03550db"
+    },
+    "2": {
+      "label": "SAVE_LOADED_AT_STARTER_POSITION",
+      "top_sha256": "20ecf8c397331e48b92a798d63d67bc6126739379d20ab3b57b632d8249227fd",
+      "bottom_sha256": "446c46d426bb5eb8c8c4be309af096d85fd29b4c9a1e0cd086e205ee0b2a9c9e"
+    },
+    "3": {
+      "label": "FRIEND_DIALOGUE_01",
+      "top_sha256": "a84ad47cb3e8222c369b3d8adfbed1c52106427fda671e3a35e2bfaa86893f68",
+      "bottom_sha256": "28963d969781729f330259c90fcfb5f78dff9ff94b93ab9f532d9483631c777a"
+    }
+  },
+  "party_window_sha256": "bb7b86da2ba08dade48f946b997c13bf95d27076bacc354c05c026c9e2f94daf",
+  "party_slot_sha256": "e11a3fb3775e9d0a33ddb0624e64daafdb8d39d1f49772dc13237b73ddb57b18"
+}
