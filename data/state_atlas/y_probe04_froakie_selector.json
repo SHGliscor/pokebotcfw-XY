@@ -1,0 +1,192 @@
+{
+  "game": "Pokemon Y",
+  "title_id": "0004000000055E00",
+  "process": "kujira-2",
+  "captured": "2026-10-07",
+  "source": "PokemonY_Probe04_20261007_013422_987862",
+  "controller_mode": "manual physical input mapping",
+  "selector": {
+    "chooser_state": 25,
+    "chooser_bottom_sha256": "4eb756f98a6f5fe5f393ffbd00e9eceb08b504e7564bb32d4946cc730315f80f",
+    "first_right": {
+      "from": 25,
+      "to": 26,
+      "result": "Fennekin focus",
+      "bottom_sha256": "d1e10fb25824065600e26a046c82b503295aabb2e69664d854d423983695972a"
+    },
+    "second_right": {
+      "from": 26,
+      "to": 27,
+      "result": "Froakie focus",
+      "bottom_sha256": "aa07dd12e52bf493cf5295520e086a250988df18b18a15a8219aa19bd98f2d62"
+    },
+    "confirm_menu_state": 28,
+    "received_state": 29
+  },
+  "final_pk6": {
+    "species": 656,
+    "tid": 21080,
+    "sid": 3731,
+    "checksum": "0xE42F",
+    "ec": "0xEE5EE243",
+    "pid": "0x4A51D4A7",
+    "nature": 23,
+    "ability": 67,
+    "ivs": [
+      16,
+      7,
+      20,
+      13,
+      13,
+      24
+    ],
+    "shiny": false
+  },
+  "transitions": [
+    {
+      "from": 0,
+      "to": 1,
+      "action": "A"
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "action": "A"
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "action": "A"
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "action": "A"
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "action": "A"
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "action": "A"
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "action": "A"
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "action": "A"
+    },
+    {
+      "from": 8,
+      "to": 9,
+      "action": "A"
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "action": "A"
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "action": "A"
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "action": "A"
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "action": "A"
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "action": "A"
+    },
+    {
+      "from": 14,
+      "to": 15,
+      "action": "A"
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "action": "A"
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "action": "A"
+    },
+    {
+      "from": 17,
+      "to": 18,
+      "action": "A"
+    },
+    {
+      "from": 18,
+      "to": 19,
+      "action": "A"
+    },
+    {
+      "from": 19,
+      "to": 20,
+      "action": "A"
+    },
+    {
+      "from": 20,
+      "to": 21,
+      "action": "A"
+    },
+    {
+      "from": 21,
+      "to": 22,
+      "action": "A"
+    },
+    {
+      "from": 22,
+      "to": 23,
+      "action": "A"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "action": "A"
+    },
+    {
+      "from": 24,
+      "to": 25,
+      "action": "A"
+    },
+    {
+      "from": 25,
+      "to": 26,
+      "action": "RIGHT"
+    },
+    {
+      "from": 26,
+      "to": 27,
+      "action": "RIGHT"
+    },
+    {
+      "from": 27,
+      "to": 28,
+      "action": "A"
+    },
+    {
+      "from": 28,
+      "to": 29,
+      "action": "A"
+    }
+  ]
+}
